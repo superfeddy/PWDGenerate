@@ -35,12 +35,11 @@ generate.addEventListener("click", function () {
   let passwordGeneration = []
 
   // length asks the user how long they want their password. It limits the option to 8-128 and confirms that the user input is within that range. If it is not within that range, it prompts the user to enter a number within that range.
-  let length = parseInt(prompt('How long do you want your password? Must be between 8 and 128 characters.'))
+  let length = prompt('How long do you want your password? Must be between 8 and 128 characters.')
   if (length < 8 || length > 128 || length === NaN || length === null) {
     alert('Must be between 8 and 128 characters')
-    length = parseInt(prompt('How long do you want your password? Must be between 8 and 128 characters.'))
+    length = prompt('How long do you want your password? Must be between 8 and 128 characters.')
   } else {
-    return length
   }
 
   // Now that we know how long they would like the password, this for loop randomly selects from the formattedArray and pushes that randomly selected character to passwordGeneration.
