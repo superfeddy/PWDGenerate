@@ -36,9 +36,10 @@ generate.addEventListener("click", function () {
 
   // length asks the user how long they want their password. It limits the option to 8-128 and confirms that the user input is within that range. If it is not within that range, it prompts the user to enter a number within that range.
   let length = parseInt(prompt('How long do you want your password? Must be between 8 and 128 characters.'))
-  while (length < 8 || length > 128 || length === NaN || length === null) {
+  if (length < 8 || length > 128 || length === NaN || length === null) {
     alert('Must be between 8 and 128 characters')
-    passwordLength = parseInt(prompt('How long do you want your password? Must be between 8 and 128 characters.'))
+    length = parseInt(prompt('How long do you want your password? Must be between 8 and 128 characters.'))
+  } else {
     return length
   }
 
