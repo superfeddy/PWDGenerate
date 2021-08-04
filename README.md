@@ -1,6 +1,8 @@
 # password_generator
 
-password generator created in javascript
+password generator created in javascript.
+
+View it at: https://jacobzavita.github.io/password_generator/
 
 # Contents of Project
 This project contains an index.html file, script.js file, and style.css file.
