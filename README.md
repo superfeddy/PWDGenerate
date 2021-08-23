@@ -6,6 +6,7 @@ This is a simple password generator webapp created in javascript. I built this d
 The user can generate a randomly generated password by clicking "Generate Password." From there a series of prompts come up asking about their character requirements (lowercase, uppercase, numbers, special characters) and length. Once the prompts are completed, a randomly generated password is presented for them to copy and paste.
 
 View it at: https://jacobzavita.github.io/password_generator/
+![Screen Shot 2021-08-23 at 10 18 02 AM](https://user-images.githubusercontent.com/81720959/130489518-7204f56f-352f-4ff4-a760-788bbe81e296.png)
 
 # Contents of Project
 This project contains an index.html file, script.js file, and style.css file.
