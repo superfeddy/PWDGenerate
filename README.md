@@ -1,11 +1,17 @@
 # password_generator
 
-password generator created in javascript.
+This is a simple password generator webapp created in javascript. I built this during my coding bootcamp at UC Irvine while learning javascript.
+
+## What it does:
+The user can generate a randomly generated password by clicking "Generate Password." From there a series of prompts come up asking about their character requirements (lowercase, uppercase, numbers, special characters) and length. Once the prompts are completed, a randomly generated password is presented for them to copy and paste.
 
 View it at: https://jacobzavita.github.io/password_generator/
 
 # Contents of Project
 This project contains an index.html file, script.js file, and style.css file.
+
+# Technologies used
+HTML, CSS, JavaScript
 
 # Goals for Project
 Here is the story I was prompted with to build this:
